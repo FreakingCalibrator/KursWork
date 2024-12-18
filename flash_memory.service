@@ -1,0 +1,9 @@
+[Unit]
+Description=Start service vblade
+
+[Service]
+User=root
+ExecStart=/home/admin/flash_memory
+
+[Install]
+WantedBy=multi-user.target
